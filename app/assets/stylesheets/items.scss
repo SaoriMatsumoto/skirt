@@ -1,0 +1,22 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    color: #333;
+    font-family: "Open Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
