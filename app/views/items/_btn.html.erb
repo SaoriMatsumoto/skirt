@@ -1,0 +1,18 @@
+<div class="search">
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        スカート <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        <li><%= link_to "ロング", long_path %></li>
+        <li><%= link_to "ミニ", mini_path %></li>
+      </ul>
+    </div>
+</div>
+
+<div class="search">
+    <%= button_to "ジーンズ", jeans_path, method: :get, class: "btn btn-primary btn-lg" %>
+</div>
+<div class="search">
+    <%= button_to "ワンピース", dress_path, method: :get, class: "btn btn-success btn-lg" %>
+</div>
